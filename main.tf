@@ -1,5 +1,5 @@
 terraform {
-  backend "remote" {
+  backend "gsc" {
     # The name of your Terraform Cloud organization.
     organization = "samcartest"
  
